@@ -20,6 +20,7 @@ public class TimeManagerAccount implements Serializable {
 	private static final long serialVersionUID = -2508211407261443913L;
 	private byte[] hashedPass;
 	private String username;
+	private int userID ;
 
     public TimeManagerAccount(String username) {
       hashedPass = null;
